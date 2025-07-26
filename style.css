@@ -1,0 +1,389 @@
+/* .header-item{
+    max-width: 1140;
+    margin-top: 30px;
+} */
+ /* display-fiex */
+.display-flex{
+    display: flex;
+}
+/* max-width */
+.nav-container, 
+.hero-section, 
+.card-itam{
+    max-width: 1140px;
+    margin: 0 auto;
+}    
+.nav-container, 
+.hero-section{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* card-for */
+.card-for{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.rgba{
+    color:rgba(137, 135, 161, 1);
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+/* main section */
+main > section{
+    margin-top: 120px;
+}
+/* hero-section */
+.hero-section{
+    margin-top: 80px;
+}
+.margin-top{
+    margin-top: 120px;
+}
+.always-section{
+    margin-top: 162px;
+    gap: 13px;
+    padding: 20px auto;
+}
+.always-font{
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 1);
+}
+.fresh-font{
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgba(233, 90, 8, 1);
+}
+.reglur{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* our-plants-faction */
+.our-plants-faction div{
+    text-align: center;
+    align-items: center;
+
+}
+
+.ours{
+    color: rgba(233, 90, 8, 1);
+     font-weight: 700;
+     font-size: 3rem;
+}
+.plants{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+.color-our{
+    font-weight: 400;
+    padding: 0 auto;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* card-container */
+.card-container{
+    max-width : 270px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 20px;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+/* card itam */
+.meidam-font{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+}
+.usd{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+.add-to-card{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    gap: 30px;
+    background-color: #E95A08;
+    padding: 1.3rem 3rem;
+    
+}
+/* flower-and-plants lover */
+.flower-lover{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.margin-auto div{
+    margin: auto;
+}
+.logo-bag{
+    max-width: 286px;
+    max-height: 286px;
+    display: inline;
+    outline: none; 
+}
+/* img cart item */
+.logo-bag{
+    margin-top: -150px;
+    margin-left: -200px;
+}
+.flower-and{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* maxx-width */
+.maxx-width{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 120px;
+}
+/* two-imgs */
+.gap-two-img{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 28px;
+}
+.all-section{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.img-tow{
+    border-radius: 1rem;
+}
+.img-one{
+    border-radius: 1.3rem;
+}
+/* lost section */
+.lost-section{
+    max-width: 1140px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.fool-container{
+    display: flex;
+    gap: 20px;
+}
+.left-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+}
+.right{
+    width: 65%;
+}
+.overall{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2.4rem; 
+}
+.card{
+    height: 250px;
+    display: flex; 
+    color: #FFFFFF;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.backrund-card{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* backround-img*/
+.Bloom-Plant{
+    background-image: url('../assets/deal-bloom.png');
+    height: 200px;
+     width: 367px;
+}
+ .Ana-Plant{
+    background-image:  url('../assets/deal-ana.png');
+    height: 200px;
+    width: 367px;
+ }
+
+.Zabo-Plant{
+    background-image: url('../assets/deal-zabo.png');
+    height: 423px;
+    width: 753px;
+
+}
+.overall{
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.overall h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.overall h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.overall a{
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+/* join the colorful bunch */
+.section-bottom{
+    background-image: url('../assets/news-letter-bg.png');
+    width: 100%;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.overall-two{
+    text-align: center;
+    height: 50px;
+    color: #FFFFFF;
+    gap: 23px;
+}
+.section-bottom h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 23px;
+}
+.section-form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px;
+    max-height: 80px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+/* input file */
+.section-form input[type="email"] {
+    border: none;
+    display: flex;
+    font-size: 1rem;
+    padding: 8px 20px;
+    font-weight: 400;
+    outline: none;
+}
+.section-form button {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.section-form button:hover {
+    background-color: #E95A08;
+}
+/* flower-section */
+.flower-section{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-item{
+    list-style: none;
+    margin: 32px;
+
+}
+.footer-icon{
+    align-self: start;
+    gap: 30px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .card-for{
+        display: grid;
+        flex-direction: row;
+    }
+     .card-for{  
+        display: grid;
+        grid-template-rows: repeat(4,2fr);
+    }
+    .hero-section, .margi-auto{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+   }
+    .hero-section{
+        flex-direction: row-reverse;
+    }
+   .section-bottom{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    max-width: 393;
+    margin: 0 auto;  
+   }
+   .flower-section, .footer-item, .color-our{
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: auto;
+      margin: 50px 160px 50px 20px;
+
+   }
+   .flower-section{
+        margin-left: 20px;
+   }
+    /* lost-section */
+    .lost-section .fool-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+     .lost-section  .cart{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .maxx-width  .mobile-center{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-bag{
+        background-image: hidden;
+        
+    }
+}
